@@ -19,22 +19,89 @@ Just a documentation for the commands in dead sun
 
 **Commands and their function**
 
-```
-GiveItem [ItemID : Integer]
-```
-Gives any item in the game to `[UsingPlayer]`
 
+```lua
+Help
 ```
-Teleport [X : Integer,Y : Integer,Z : Integer]
-```
-Teleports `[UsingPlayer]` to any XYZ coordinate
-
-```
-GiveQuest [QuestID : String]
-```
-Gives any quest in the game to `[UsingPlayer]`
+Prints a list of every command in the game.
 
 ---
+
+```lua
+GiveItem [ItemID : Integer]
+```
+Gives any item in the game to `[UsingPlayer]`.
+**Usage Example:**
+```lua
+GiveItem 1
+```
+---
+
+```lua
+Teleport [X : Integer,Y : Integer,Z : Integer]
+```
+Teleports `[UsingPlayer]` to any XYZ coordinate.
+**Usage Example:**
+```lua
+Teleport 256,500,129
+```
+
+---
+
+```lua
+GiveQuest [QuestID : String]
+```
+Gives any quest in the game to `[UsingPlayer]`.
+**Usage Example:**
+```lua
+GiveItem 1
+```
+---
+
+```lua
+Kill [Player : String]
+```
+Kills any Player in the game.
+**Usage Example:**
+```lua
+Kill JohnDoe
+```
+
+---
+
+```lua
+InstantHeal [Player : String]
+```
+Health any Player in the game to full health.
+**Usage Example:**
+```lua
+InstantHeal portalj123
+```
+
+---
+
+```lua
+Kick [Player : String]
+```
+Kicks any Player in the game.
+**Usage Example:**
+```lua
+Kick Kelletonskeleton16
+```
+
+---
+
+```lua
+Ban [Player : String]
+```
+Bans any Player in the game permanently, only use this against deserving players, and file a ban report afterwards. Failure to do so may result in the ban being appealed, and/or loss of admin.
+**Usage Example:**
+```lua
+Ban fornitebattle676
+```
+
+---
+
 
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
