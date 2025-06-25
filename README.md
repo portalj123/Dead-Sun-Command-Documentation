@@ -1,6 +1,8 @@
 # Dead Sun Command Documentation
 Just a documentation for the commands in dead sun
 
+Use SemiColon to open command menu.
+
 ## Command Signatures
 - `[Args]` -- Used to represent a non specific argument in a command. This is generally replaced by the actual information meant to be passed in the command.
 - `[UsingPlayer]` -- Used to Identify the player using the command. 
