@@ -1,4 +1,4 @@
-# Dead-Sun-Command-Documentation
+# Dead Sun Command Documentation
 Just a documentation for the commands in dead sun
 
 ## Command Signatures
@@ -9,7 +9,9 @@ Just a documentation for the commands in dead sun
 - `Integer` Used to identify when a value is a whole number.
 - `String` Used to identify when a value is a text.
 
-## Commands
+---
+
+# Commands
 
 **Important Info**
 - Brackets are not used in command, they are included only to enhance readability
@@ -32,7 +34,7 @@ GiveQuest [QuestID : String]
 ```
 Gives any quest in the game to `[UsingPlayer]`
 
-
+---
 
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
