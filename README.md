@@ -10,6 +10,7 @@ Use SemiColon to open command menu.
 ## Identifiers
 - `Integer` Used to identify when a value is a whole number.
 - `String` Used to identify when a value is a text.
+- `Float` Used to identify when a value is a real number.
 
 ---
 
@@ -48,6 +49,16 @@ Teleports `[UsingPlayer]` to any XYZ coordinate.
 Teleport 256,500,129
 ```
 
+---
+
+```lua
+SetTime [Time : Float]
+```
+Set's the global time in game.
+**Usage Example:**
+```lua
+SetTime 17
+```
 ---
 
 ```lua
