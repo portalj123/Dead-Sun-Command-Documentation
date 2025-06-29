@@ -118,7 +118,7 @@ Ban fornitebattle676
 ```lua
 Spawn [EntityID : String]
 ```
-Health any Player in the game to full health.
+Spawn any entity in the game.
 **Usage Example:**
 ```lua
 Spawn Human
