@@ -118,7 +118,7 @@ Ban fornitebattle676
 ```lua
 Spawn [EntityID : String]
 ```
-Spawn any entity in the game.
+Spawn any entity in the game. (Entity will spawn exactly 12 stud in front of `[UsingPlayer]`, facing directly towards them.)
 **Usage Example:**
 ```lua
 Spawn Human
