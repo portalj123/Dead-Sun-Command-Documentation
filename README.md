@@ -115,6 +115,15 @@ Ban fornitebattle676
 
 ---
 
+```lua
+Spawn [EntityID : String]
+```
+Health any Player in the game to full health.
+**Usage Example:**
+```lua
+Spawn Human
+```
+
 
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
@@ -130,6 +139,7 @@ The ItemID for each item in game
 - `[6]`: Pipe
 - `[7]`: Crossbow
 - `[8]`: Advanced Winter Rifle (Standard Sniper)
+- `[9]`: Makeshift Machete
 
 ## Quests
 The QuestID for each quest in game
@@ -137,3 +147,16 @@ The QuestID for each quest in game
 - `ExampleQuest`: Example Quest
 - `Intro`: Intro
 - `SouthbridgeShelter`: Survivors Guilt
+
+## Entities
+The EntityID for each quest in game
+
+- `Human`: Standard Human enemy
+- `Passive`: Standard Passive Human, pretty much just a dummy with animations
+- `Zombie`: Basic Zombie
+
+## Common Teleports
+Coordinates for common locations you can teleport to
+
+- `1117,3,-775`: Survivor Base
+- `-4096,3,0`: Testing Area
