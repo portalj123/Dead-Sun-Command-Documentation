@@ -124,6 +124,18 @@ Spawn any entity in the game. (Entity will spawn exactly 12 studs in front of `[
 Spawn Human
 ```
 
+---
+
+```lua
+SetWeather [WeatherID : String]
+```
+Changes the global weather to `WeatherID`.
+**Usage Example:**
+```lua
+SetWeather Rain
+```
+
+
 
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
@@ -155,8 +167,15 @@ The EntityID for each quest in game
 - `Passive`: Standard Passive Human, pretty much just a dummy with animations
 - `Zombie`: Basic Zombie
 
+## Weather Types
+The WeatherID for each weather type in game
+
+- `Clear`: Clear, Sunny, Warm
+- `Rain`: Heavy Rain, Cold
+- `Cloudy`: Basic Zombie, Lukewarm
+
 ## Common Teleports
 Coordinates for common locations you can teleport to
 
-- `1117,3,-775`: Survivor Base
+- `1117,3,-775`: Central Park
 - `-4096,3,0`: Testing Area
