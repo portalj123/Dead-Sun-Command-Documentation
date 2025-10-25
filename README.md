@@ -96,7 +96,7 @@ InstantHeal portalj123
 ```lua
 Kick [Player : String]
 ```
-Kicks any Player in the game.
+Kicks any Player in the game. `This will be disabled during the public playtest`
 **Usage Example:**
 ```lua
 Kick Kelletonskeleton16
@@ -136,7 +136,6 @@ SetWeather Rain
 ```
 
 
-
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
 
@@ -150,15 +149,16 @@ The ItemID for each item in game
 - `[5]`: Mossberg (Shotgun)
 - `[6]`: Pipe
 - `[7]`: Crossbow
-- `[8]`: Advanced Winter Rifle (Standard Sniper)
+- `[8]`: Advanced Winter Rifle (Standard Sniper) `Currenly Disabled`
 - `[9]`: Makeshift Machete
+- `[10]`: Molotov Cocktail (Throwable) `Currently Unfinished`
+- `[11]`: Glass Bottle (Throwable)
+- `[12]`: Brick (Throwable)
 
 ## Quests
 The QuestID for each quest in game
 
 - `ExampleQuest`: Example Quest
-- `Intro`: Intro
-- `SouthbridgeShelter`: Survivors Guilt
 
 ## Entities
 The EntityID for each quest in game
@@ -166,6 +166,7 @@ The EntityID for each quest in game
 - `Human`: Standard Human enemy
 - `Passive`: Standard Passive Human, pretty much just a dummy with animations
 - `Zombie`: Basic Zombie
+- `Viral`: Faster, More intelligent zombie
 
 ## Weather Types
 The WeatherID for each weather type in game
@@ -173,9 +174,3 @@ The WeatherID for each weather type in game
 - `Clear`: Clear, Sunny, Warm
 - `Rain`: Heavy Rain, Cold
 - `Cloudy`: Basic Zombie, Lukewarm
-
-## Common Teleports
-Coordinates for common locations you can teleport to
-
-- `1117,3,-775`: Central Park
-- `-4096,3,0`: Testing Area
