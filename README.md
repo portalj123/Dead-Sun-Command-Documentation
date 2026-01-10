@@ -140,10 +140,10 @@ SetWeather Rain
 ```lua
 GiveCash [CashAmount : Number]
 ```
-Changes the global weather to `WeatherID`.
+Gives `[CashAmount]` Cash to  `[UsingPlayer]`.
 **Usage Example:**
 ```lua
-SetWeather Rain
+GiveCash 12500
 ```
 
 
