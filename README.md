@@ -135,6 +135,17 @@ Changes the global weather to `WeatherID`.
 SetWeather Rain
 ```
 
+---
+
+```lua
+GiveCash [CashAmount : Number]
+```
+Changes the global weather to `WeatherID`.
+**Usage Example:**
+```lua
+SetWeather Rain
+```
+
 
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
@@ -159,6 +170,8 @@ The ItemID for each item in game
 The QuestID for each quest in game
 
 - `ExampleQuest`: Example Quest
+- `ExampleQuest2`: Example Quest
+- `EliminateGroupTest`: Quest created for testing out enemy group spawning and killing
 
 ## Entities
 The EntityID for each quest in game
@@ -174,3 +187,4 @@ The WeatherID for each weather type in game
 - `Clear`: Clear, Sunny, Warm
 - `Rain`: Heavy Rain, Cold
 - `Cloudy`: Basic Zombie, Lukewarm
+- `Snow`: Basic Zombie, Lukewarm
