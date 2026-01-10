@@ -140,7 +140,7 @@ SetWeather Rain
 ```lua
 GiveCash [CashAmount : Number]
 ```
-Gives `[CashAmount]` Cash to  `[UsingPlayer]`.
+Gives `[CashAmount]` to  `[UsingPlayer]`.
 **Usage Example:**
 ```lua
 GiveCash 12500
