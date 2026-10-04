@@ -31,12 +31,21 @@ Prints a list of every command in the game.
 ---
 
 ```lua
-GiveItem [ItemID : Integer]
+GiveItem [ItemID : String]
 ```
 Gives any item in the game to `[UsingPlayer]`.
 **Usage Example:**
 ```lua
-GiveItem 1
+GiveItem Viper
+```
+---
+```lua
+GiveAmmo [AmmoType : String],[Amount : Integer]
+```
+Gives ammo of any type to `[UsingPlayer]`.
+**Usage Example:**
+```lua
+GiveAmmo Assault,64
 ```
 ---
 
@@ -146,25 +155,25 @@ Gives `[CashAmount]` to  `[UsingPlayer]`.
 GiveCash 12500
 ```
 
-
 # Argument Information
 Things like Arguments and Data you use in commands, like Item IDs and Quest IDs
 
 ## Items
 The ItemID for each item in game
-
-- `[1]`: Zombie Spawner
-- `[2]`: Viper (Standard Revolver)
-- `[3]`: AK 47
-- `[4]`: Renetta (Standard Pistol)
-- `[5]`: Mossberg (Shotgun)
-- `[6]`: Pipe
-- `[7]`: Crossbow
-- `[8]`: Advanced Winter Rifle (Standard Sniper) `Currenly Disabled`
-- `[9]`: Makeshift Machete
-- `[10]`: Molotov Cocktail (Throwable) `Currently Unfinished`
-- `[11]`: Glass Bottle (Throwable)
-- `[12]`: Brick (Throwable)
+Ranged
+- `[Viper]`: Viper (Standard Revolver)
+- `[AK47]`: AK 47
+- `[Renetta]`: Renetta (Standard Pistol)
+- `[Mossberg]`: Mossberg (Shotgun)
+- `[Crossbow]`: Crossbow `Currenly Disabled`
+- `[AWP]`: Advanced Winter Rifle (Standard Sniper) `Currenly Disabled`
+Melee
+- `[Pipe]`: Pipe
+- `[MakeshitBlade]`: Makeshift Machete
+Throwable
+- `[Molotov]`: Molotov Cocktail (Throwable)
+- `[Bottle]`: Glass Bottle (Throwable)
+- `[Brick]`: Brick (Throwable)
 
 ## Quests
 The QuestID for each quest in game
@@ -172,6 +181,8 @@ The QuestID for each quest in game
 - `ExampleQuest`: Example Quest
 - `ExampleQuest2`: Example Quest
 - `EliminateGroupTest`: Quest created for testing out enemy group spawning and killing
+- `EliminateGroupTest2`: Quest created for testing out enemy group spawning and killing with stealth
+- `CampaignQuest2 - 8`: All currently created storyquests. DO NOT USE, the map is not available in testing, and they will not function properly.
 
 ## Entities
 The EntityID for each quest in game
@@ -186,5 +197,5 @@ The WeatherID for each weather type in game
 
 - `Clear`: Clear, Sunny, Warm
 - `Rain`: Heavy Rain, Cold
-- `Cloudy`: Basic Zombie, Lukewarm
-- `Snow`: Basic Zombie, Lukewarm
+- `Cloudy`: Lukewarm
+- `Snow`: Heavy Snow, Cold
